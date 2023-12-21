@@ -1,0 +1,122 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+    background-image: url(img/фон.jpg);
+    background-size: cover;
+    
+}
+a:link {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+    }
+    
+    a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+    }
+.A{
+    font-family: 'Concert One', cursive;
+    font-size: 96px;
+    letter-spacing: 0.4em;
+    color: white;
+}
+
+.head{
+    margin-left: 105px;
+    margin-top: 62px;
+    margin-bottom: 150px;
+}
+
+
+.container{
+    width:100%;
+    max-width: 818px;
+    margin: 0% auto;
+    position: relative;
+    
+}
+
+.text{
+    margin-top: 50px;
+    margin-bottom: 110px;
+    line-height: 1.5;
+}
+
+.text-i{
+   font-weight: 100;
+    margin-bottom: 150px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*кнопка*/
+.custom-btn {
+    width: 340px;
+    height: 120px;
+    color: #ffffff;
+    border-radius: 0px;
+    padding: 10px 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    -webkit-box-shadow: 32px 28px 6px 9px rgba(67, 46, 19, 0.55);
+    -moz-box-shadow: 32px 28px 6px 9px rgba(67,0 46, 19, 0.55);
+    box-shadow: 32px 28px 6px 9px rgba(67, 46, 19, 0.55);
+    outline: none;
+    margin-bottom: 55px;
+
+    
+}
+.btn-1 {
+    background:  #9E723F;
+    background: linear-gradient(0deg,  #835e33 0%,  #9E723F 100%);
+    border: none;
+}
+.btn-1:hover {
+     background:  #9E723F;
+  background: linear-gradient(0deg,  #8d6334 0%,  #9E723F 100%);
+}
+
+.button{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.button-end{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+
+}
+
+
+
+.footer-flex{
+	display: flex;
+    justify-content: space-evenly;
+	margin-bottom:90px;
+	
+}
+
+.fort{
+	margin:0px;
+	padding:0px;
+}
+
+.text-center-2{
+    
+	text-align:center;
+	
+	margin-bottom:120px;
+}

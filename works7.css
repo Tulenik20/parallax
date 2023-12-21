@@ -1,0 +1,101 @@
+html{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+  background-image: url(img/фон.jpg);
+  background-size: cover;
+  
+}
+a:link {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+  }
+  
+a:visited {
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+.A{
+  font-family: 'Concert One', cursive;
+  font-size: 96px;
+  letter-spacing: 0.4em;
+  color: white;
+}
+
+.head{
+  margin-left: 105px;
+  margin-top: 62px;
+  margin-bottom: 150px;
+}
+
+
+.container{
+  width:100%;
+  max-width: 818px;
+  margin: 0% auto;
+  position: relative;
+  
+}
+
+.H1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  color: #D89444;
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+iframe{
+  margin-bottom: 140px;
+  height: 450px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+/*кнопка*/
+
+.parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.parent button {
+  background-color: #D9D9D9;
+  color: #D89444;
+  border: none;
+  padding: 5px;
+  font-size: 40px;
+  height: 130px;
+  width: 130px;
+  box-shadow: 0 2px 4px darkslategray;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.parent button:active {
+  background-color: #D9D9D9;
+  box-shadow: 0 0 2px darkslategray;
+  transform: translateY(2px);
+}
+
+.parent button:not(:first-child) {
+  margin-top: 10px;
+}
+.round-6 {
+  border-radius: 50%;
+}
+
+
+
+.text-center-2{
+  
+text-align:center;
+
+margin-bottom:120px;
+}
+
